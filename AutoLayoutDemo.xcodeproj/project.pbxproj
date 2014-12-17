@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4412F57E1A420A300074EEFA /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4412F57C1A420A300074EEFA /* CustomTableViewCell.m */; };
+		4412F57F1A420A300074EEFA /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4412F57D1A420A300074EEFA /* CustomTableViewCell.xib */; };
 		A27BC4FD1A417F23002930B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A27BC4FC1A417F23002930B7 /* main.m */; };
 		A27BC5001A417F23002930B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A27BC4FF1A417F23002930B7 /* AppDelegate.m */; };
 		A27BC5031A417F23002930B7 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27BC5021A417F23002930B7 /* MasterViewController.m */; };
@@ -16,7 +18,6 @@
 		A27BC51A1A417F24002930B7 /* AutoLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27BC5191A417F24002930B7 /* AutoLayoutDemoTests.m */; };
 		A27BC5251A418260002930B7 /* WithSpacerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27BC5241A418260002930B7 /* WithSpacerViewController.m */; };
 		A27BC5281A418D6F002930B7 /* HuggingCompressingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27BC5271A418D6F002930B7 /* HuggingCompressingViewController.m */; };
-		A27BC52B1A418F07002930B7 /* PlaceHolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27BC52A1A418F07002930B7 /* PlaceHolderViewController.m */; };
 		A27BC52E1A418FA2002930B7 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27BC52D1A418FA2002930B7 /* CustomViewController.m */; };
 		A27BC5311A419256002930B7 /* AlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = A27BC5301A419256002930B7 /* AlphaView.m */; };
 		A27BC5341A419588002930B7 /* AlphaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A27BC5331A419588002930B7 /* AlphaView.xib */; };
@@ -33,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4412F57B1A420A300074EEFA /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		4412F57C1A420A300074EEFA /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		4412F57D1A420A300074EEFA /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		A27BC4F71A417F23002930B7 /* AutoLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27BC4FB1A417F23002930B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A27BC4FC1A417F23002930B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,8 +54,6 @@
 		A27BC5241A418260002930B7 /* WithSpacerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WithSpacerViewController.m; sourceTree = "<group>"; };
 		A27BC5261A418D6F002930B7 /* HuggingCompressingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuggingCompressingViewController.h; sourceTree = "<group>"; };
 		A27BC5271A418D6F002930B7 /* HuggingCompressingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuggingCompressingViewController.m; sourceTree = "<group>"; };
-		A27BC5291A418F07002930B7 /* PlaceHolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceHolderViewController.h; sourceTree = "<group>"; };
-		A27BC52A1A418F07002930B7 /* PlaceHolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceHolderViewController.m; sourceTree = "<group>"; };
 		A27BC52C1A418FA2002930B7 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
 		A27BC52D1A418FA2002930B7 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 		A27BC52F1A419256002930B7 /* AlphaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaView.h; sourceTree = "<group>"; };
@@ -105,8 +107,6 @@
 				A27BC5241A418260002930B7 /* WithSpacerViewController.m */,
 				A27BC5261A418D6F002930B7 /* HuggingCompressingViewController.h */,
 				A27BC5271A418D6F002930B7 /* HuggingCompressingViewController.m */,
-				A27BC5291A418F07002930B7 /* PlaceHolderViewController.h */,
-				A27BC52A1A418F07002930B7 /* PlaceHolderViewController.m */,
 				A27BC52C1A418FA2002930B7 /* CustomViewController.h */,
 				A27BC52D1A418FA2002930B7 /* CustomViewController.m */,
 				A27BC4FE1A417F23002930B7 /* AppDelegate.h */,
@@ -151,6 +151,9 @@
 				A27BC52F1A419256002930B7 /* AlphaView.h */,
 				A27BC5301A419256002930B7 /* AlphaView.m */,
 				A27BC5331A419588002930B7 /* AlphaView.xib */,
+				4412F57B1A420A300074EEFA /* CustomTableViewCell.h */,
+				4412F57C1A420A300074EEFA /* CustomTableViewCell.m */,
+				4412F57D1A420A300074EEFA /* CustomTableViewCell.xib */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				A27BC5091A417F24002930B7 /* Main.storyboard in Resources */,
 				A27BC50E1A417F24002930B7 /* LaunchScreen.xib in Resources */,
 				A27BC50B1A417F24002930B7 /* Images.xcassets in Resources */,
+				4412F57F1A420A300074EEFA /* CustomTableViewCell.xib in Resources */,
 				A27BC5341A419588002930B7 /* AlphaView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,13 +260,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A27BC52B1A418F07002930B7 /* PlaceHolderViewController.m in Sources */,
 				A27BC5001A417F23002930B7 /* AppDelegate.m in Sources */,
 				A27BC52E1A418FA2002930B7 /* CustomViewController.m in Sources */,
 				A27BC5031A417F23002930B7 /* MasterViewController.m in Sources */,
 				A27BC5251A418260002930B7 /* WithSpacerViewController.m in Sources */,
 				A27BC4FD1A417F23002930B7 /* main.m in Sources */,
 				A27BC5281A418D6F002930B7 /* HuggingCompressingViewController.m in Sources */,
+				4412F57E1A420A300074EEFA /* CustomTableViewCell.m in Sources */,
 				A27BC5311A419256002930B7 /* AlphaView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +458,7 @@
 				A27BC51F1A417F24002930B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A27BC5201A417F24002930B7 /* Build configuration list for PBXNativeTarget "AutoLayoutDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +467,7 @@
 				A27BC5221A417F24002930B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

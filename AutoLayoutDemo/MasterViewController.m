@@ -11,8 +11,7 @@
 typedef NS_ENUM(NSInteger, ALDDemoType) {
     ALDDemoTypeWithSpacer,
     ALDDemoTypeHuggingAndCompressing,
-    ALDDemoTypePlaceHolder,
-    ALDDemoTypeCustomView,
+    ALDDemoTypeTableView,
 };
 
 @interface MasterViewController ()
@@ -62,10 +61,7 @@ typedef NS_ENUM(NSInteger, ALDDemoType) {
         case ALDDemoTypeHuggingAndCompressing:
             dest = @"HuggingCompressing";
             break;
-        case ALDDemoTypePlaceHolder:
-            dest = @"PlaceHolder";
-            break;
-        case ALDDemoTypeCustomView:
+        case ALDDemoTypeTableView:
             dest = @"CustomView";
             break;
     }
@@ -80,8 +76,7 @@ typedef NS_ENUM(NSInteger, ALDDemoType) {
     return @[
              @"SpacerView",
              @"Hugging and ContentCompressionResistance",
-             @"PlaceHolder",
-             @"CustomView",
+             @"TableView",
              ];
 }
 

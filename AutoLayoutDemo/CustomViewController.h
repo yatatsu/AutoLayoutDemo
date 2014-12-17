@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustomViewController : UIViewController
+@interface CustomViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, weak) IBOutlet UITableView *tableView;
 
 @end

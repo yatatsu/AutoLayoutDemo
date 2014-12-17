@@ -10,4 +10,10 @@
 
 @interface HuggingCompressingViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UILabel *first;
+@property (nonatomic, weak) IBOutlet UILabel *second;
+@property (nonatomic, weak) IBOutlet UIView *firstContainer;
+@property (nonatomic, weak) IBOutlet UIView *secondContainer;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint *marginHC;
+
 @end
