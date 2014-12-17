@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6254"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="357"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BZj-xq-eYt">
+                    <rect key="frame" x="0.0" y="0.0" width="161" height="179"/>
+                    <color key="backgroundColor" red="0.94117653369999998" green="0.66666668650000005" blue="0.15686275059999999" alpha="1" colorSpace="deviceRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qpp-Hu-5ag">
+                    <rect key="frame" x="161" y="0.0" width="161" height="179"/>
+                    <color key="backgroundColor" red="0.8980392157" green="0.92549019610000005" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hel-KE-E1H">
+                    <rect key="frame" x="0.0" y="179" width="161" height="178"/>
+                    <color key="backgroundColor" red="0.8980392157" green="0.92549019610000005" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OVr-Rc-xgg">
+                    <rect key="frame" x="161" y="179" width="161" height="178"/>
+                    <color key="backgroundColor" red="0.8980392157" green="0.92549019610000005" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="OVr-Rc-xgg" firstAttribute="leading" secondItem="hel-KE-E1H" secondAttribute="trailing" id="2hA-bN-2GL"/>
+                <constraint firstItem="BZj-xq-eYt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4wR-lC-pja"/>
+                <constraint firstAttribute="bottom" secondItem="hel-KE-E1H" secondAttribute="bottom" id="7sf-pB-DEV"/>
+                <constraint firstItem="hel-KE-E1H" firstAttribute="top" secondItem="BZj-xq-eYt" secondAttribute="bottom" id="7xw-7O-spA"/>
+                <constraint firstItem="BZj-xq-eYt" firstAttribute="height" secondItem="hel-KE-E1H" secondAttribute="height" id="B3L-fh-ZMD"/>
+                <constraint firstItem="hel-KE-E1H" firstAttribute="width" secondItem="OVr-Rc-xgg" secondAttribute="width" id="Fjr-mk-dAr"/>
+                <constraint firstAttribute="trailing" secondItem="Qpp-Hu-5ag" secondAttribute="trailing" id="MWe-8S-oP8"/>
+                <constraint firstItem="Qpp-Hu-5ag" firstAttribute="leading" secondItem="BZj-xq-eYt" secondAttribute="trailing" id="UUO-SU-FgG"/>
+                <constraint firstItem="Qpp-Hu-5ag" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Vfh-36-Dfl"/>
+                <constraint firstItem="hel-KE-E1H" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fcX-0S-0qE"/>
+                <constraint firstItem="hel-KE-E1H" firstAttribute="top" secondItem="BZj-xq-eYt" secondAttribute="bottom" id="gal-vE-0hb"/>
+                <constraint firstAttribute="trailing" secondItem="OVr-Rc-xgg" secondAttribute="trailing" id="jBO-44-eWH"/>
+                <constraint firstAttribute="bottom" secondItem="OVr-Rc-xgg" secondAttribute="bottom" id="kir-rW-btN"/>
+                <constraint firstItem="Qpp-Hu-5ag" firstAttribute="leading" secondItem="BZj-xq-eYt" secondAttribute="trailing" id="l9o-js-Dzt"/>
+                <constraint firstItem="OVr-Rc-xgg" firstAttribute="height" secondItem="Qpp-Hu-5ag" secondAttribute="height" id="lI7-bG-n3f"/>
+                <constraint firstAttribute="bottom" secondItem="OVr-Rc-xgg" secondAttribute="bottom" id="otT-Tt-Ep5"/>
+                <constraint firstItem="OVr-Rc-xgg" firstAttribute="top" secondItem="Qpp-Hu-5ag" secondAttribute="bottom" id="pHO-ei-S2H"/>
+                <constraint firstItem="BZj-xq-eYt" firstAttribute="width" secondItem="Qpp-Hu-5ag" secondAttribute="width" id="tUn-yf-QVw"/>
+                <constraint firstItem="OVr-Rc-xgg" firstAttribute="top" secondItem="Qpp-Hu-5ag" secondAttribute="bottom" id="tgp-Cm-5if"/>
+                <constraint firstItem="BZj-xq-eYt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uY8-3Y-rbt"/>
+                <constraint firstItem="OVr-Rc-xgg" firstAttribute="leading" secondItem="hel-KE-E1H" secondAttribute="trailing" id="vxB-L3-u5G"/>
+                <constraint firstAttribute="trailing" secondItem="OVr-Rc-xgg" secondAttribute="trailing" id="w65-40-A3k"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="2hA-bN-2GL"/>
+                    <exclude reference="jBO-44-eWH"/>
+                    <exclude reference="otT-Tt-Ep5"/>
+                    <exclude reference="tgp-Cm-5if"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="-57" y="77.5"/>
+        </view>
+    </objects>
+</document>

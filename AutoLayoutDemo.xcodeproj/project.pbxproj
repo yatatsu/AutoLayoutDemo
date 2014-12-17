@@ -18,6 +18,8 @@
 		A27BC5281A418D6F002930B7 /* HuggingCompressingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27BC5271A418D6F002930B7 /* HuggingCompressingViewController.m */; };
 		A27BC52B1A418F07002930B7 /* PlaceHolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27BC52A1A418F07002930B7 /* PlaceHolderViewController.m */; };
 		A27BC52E1A418FA2002930B7 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27BC52D1A418FA2002930B7 /* CustomViewController.m */; };
+		A27BC5311A419256002930B7 /* AlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = A27BC5301A419256002930B7 /* AlphaView.m */; };
+		A27BC5341A419588002930B7 /* AlphaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A27BC5331A419588002930B7 /* AlphaView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,9 @@
 		A27BC52A1A418F07002930B7 /* PlaceHolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceHolderViewController.m; sourceTree = "<group>"; };
 		A27BC52C1A418FA2002930B7 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
 		A27BC52D1A418FA2002930B7 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		A27BC52F1A419256002930B7 /* AlphaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaView.h; sourceTree = "<group>"; };
+		A27BC5301A419256002930B7 /* AlphaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaView.m; sourceTree = "<group>"; };
+		A27BC5331A419588002930B7 /* AlphaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlphaView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +98,7 @@
 		A27BC4F91A417F23002930B7 /* AutoLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A27BC4FE1A417F23002930B7 /* AppDelegate.h */,
-				A27BC4FF1A417F23002930B7 /* AppDelegate.m */,
+				A27BC5321A41925E002930B7 /* views */,
 				A27BC5011A417F23002930B7 /* MasterViewController.h */,
 				A27BC5021A417F23002930B7 /* MasterViewController.m */,
 				A27BC5231A418260002930B7 /* WithSpacerViewController.h */,
@@ -105,6 +109,8 @@
 				A27BC52A1A418F07002930B7 /* PlaceHolderViewController.m */,
 				A27BC52C1A418FA2002930B7 /* CustomViewController.h */,
 				A27BC52D1A418FA2002930B7 /* CustomViewController.m */,
+				A27BC4FE1A417F23002930B7 /* AppDelegate.h */,
+				A27BC4FF1A417F23002930B7 /* AppDelegate.m */,
 				A27BC5071A417F24002930B7 /* Main.storyboard */,
 				A27BC50A1A417F24002930B7 /* Images.xcassets */,
 				A27BC50C1A417F24002930B7 /* LaunchScreen.xib */,
@@ -137,6 +143,16 @@
 				A27BC5181A417F24002930B7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A27BC5321A41925E002930B7 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A27BC52F1A419256002930B7 /* AlphaView.h */,
+				A27BC5301A419256002930B7 /* AlphaView.m */,
+				A27BC5331A419588002930B7 /* AlphaView.xib */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +238,7 @@
 				A27BC5091A417F24002930B7 /* Main.storyboard in Resources */,
 				A27BC50E1A417F24002930B7 /* LaunchScreen.xib in Resources */,
 				A27BC50B1A417F24002930B7 /* Images.xcassets in Resources */,
+				A27BC5341A419588002930B7 /* AlphaView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +263,7 @@
 				A27BC5251A418260002930B7 /* WithSpacerViewController.m in Sources */,
 				A27BC4FD1A417F23002930B7 /* main.m in Sources */,
 				A27BC5281A418D6F002930B7 /* HuggingCompressingViewController.m in Sources */,
+				A27BC5311A419256002930B7 /* AlphaView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
