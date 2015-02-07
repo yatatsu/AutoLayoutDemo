@@ -13,8 +13,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self configureWithFirst:@"行数に応じて高さが変わります。その分外側のViewの高さも変わります。"
-                     secound:@"\n\n\n\n\n"];
+    [self configureWithFirst:nil
+                     secound:@"行数に応じて高さが変わります。その分外側のViewの高さも変わります。"];
 }
 
 - (void)configureWithFirst:(NSString *)first secound:(NSString *)second
